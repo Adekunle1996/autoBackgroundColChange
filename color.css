@@ -1,0 +1,22 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    text-transform: uppercase;
+    border:none;
+    width: 230px;
+    height: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover{
+    color:rgba(0, 0, 0, 0.61);
+}
